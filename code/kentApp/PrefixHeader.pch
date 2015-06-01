@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  kentApp
+//
+//  Created by prashant-ios on 4/8/15.
+//  Copyright (c) 2015 pericent. All rights reserved.
+//
+
+#ifndef kentApp_PrefixHeader_pch
+#define kentApp_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define IDIOM    UI_USER_INTERFACE_IDIOM()
+#define IPAD     UIUserInterfaceIdiomPad
+
+#define screenWidth     [UIScreen mainScreen].bounds.size.width
+#define screenHeight    [UIScreen mainScreen].bounds.size.height
+
+#define FONT_TITLE      @"LetterGothicStd-Bold"
+#define FONT_NAME_MAIN  @"Avenir-Medium"
+
+#endif
